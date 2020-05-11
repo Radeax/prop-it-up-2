@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     }
 });
 
-export default function ({ firstName, lastName, age, hairColor }) {
+export default ({ firstName, lastName, age, hairColor }) => {
     const classes = useStyles();
 
     return (
